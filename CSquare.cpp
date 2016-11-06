@@ -5,6 +5,7 @@
 #include "CSquare.h"
 #include "CGeo.h"
 
-CSquare::CSquare() : CGeo("square"){
-    this->point = new CPointFloat2();
-}
+//CSquare::CSquare() : CGeo("square"){
+//this->point = new CPointFloat2();
+//}
+

@@ -7,16 +7,18 @@
 
 
 #include "CPointFloat2.h"
+#include "CGeo.h"
 
-class CSquare {
+class CSquare : public CGeo {
 public:
     CSquare();
+
     CSquare(CPointFloat2, double);
-    enum vertices;
+
+    enum vertices{A,B,C,D};
 private:
-    CPointFloat2& point;
+    CPointFloat2 &point;
     double length;
-double xxx;
 };
 
 
